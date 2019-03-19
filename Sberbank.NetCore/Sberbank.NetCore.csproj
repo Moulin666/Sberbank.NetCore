@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>MedvedStudio &amp; Roman Khusnetdinov</Authors>
+    <Product>Sberbank.NetCore</Product>
+    <Description>Sberbank API integration for .NetCore. This is lib NetStandard 2.0 (remake of MedvedStudio which write on .NetFramework)</Description>
+    <Company>MedvedStudio &amp; Roman Khusnetdinov</Company>
+    <Copyright>MedvedStudio &amp; Roman Khusnetdinov</Copyright>
+    <RepositoryUrl>https://github.com/Moulin666/Sberbank.NetCore</RepositoryUrl>
+    <RepositoryType />
+    <PackageTags>Sberbank, API, NetCore</PackageTags>
+    <PackageReleaseNotes>Write for NetStandard 2.0</PackageReleaseNotes>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Moulin666/Sberbank.NetCore</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>

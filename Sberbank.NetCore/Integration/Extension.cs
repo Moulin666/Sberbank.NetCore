@@ -25,7 +25,7 @@ namespace Sberbank.NetCore.Integration
         public static void AddNotNull(this Dictionary<string, object> source, string key, IParameters value)
         {
             if (value?.CollectParameters() != null)
-                source.Add(key, values);
+                source.Add(key, value);
         }
 
         public static void AddNotNull(this Dictionary<string, object> source, string key, string value)
